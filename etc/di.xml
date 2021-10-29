@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+  ~ Copyright © GhostUnicorns spa. All rights reserved.
+  ~ See LICENSE and/or COPYING.txt for license details.
+  -->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="GhostUnicorns\CrtCron\Api\CronListInterface" type="GhostUnicorns\CrtCron\Model\CronList"/>
+    <type name="Magento\Cron\Model\ConfigInterface">
+        <plugin name="crt_push_jobs"
+                type="GhostUnicorns\CrtCron\Plugin\PushJobs"/>
+    </type>
+</config>
