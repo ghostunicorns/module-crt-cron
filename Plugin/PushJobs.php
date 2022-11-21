@@ -1,6 +1,6 @@
 <?php
-/*
-  * Copyright © Ghost Unicorns snc. All rights reserved.
+/**
+ * Copyright © Ghost Unicorns snc. All rights reserved.
  * See LICENSE for license details.
  */
 

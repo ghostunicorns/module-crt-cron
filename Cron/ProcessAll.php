@@ -1,6 +1,6 @@
 <?php
-/*
-  * Copyright © Ghost Unicorns snc. All rights reserved.
+/**
+ * Copyright © Ghost Unicorns snc. All rights reserved.
  * See LICENSE for license details.
  */
 
@@ -18,6 +18,10 @@ use GhostUnicorns\CrtCron\Api\CronConfigInterface;
 use GhostUnicorns\CrtCron\Api\CronInstanceInterface;
 use Monolog\Logger;
 
+/**
+ * @deprecated deprecated since version 1.1.0
+ * @see \GhostUnicorns\CrtCron\Cron\Run
+ */
 class ProcessAll implements CronInstanceInterface
 {
     /**
